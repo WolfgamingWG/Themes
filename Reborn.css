@@ -2,7 +2,7 @@
 :root {--version-content: "6.5";}
 
 body:after {
-    content: "Versie: v" var(--version-content)";
+    content: "Versie: var(--version-content)";
     z-index: 10000000000000000000000000;
     color: #fff;
     background: var(--main-color);
